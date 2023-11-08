@@ -1,0 +1,230 @@
+﻿body {
+    background-color:aqua;
+    
+   
+}
+
+#sidebar {
+    background-color: #024f02;
+    
+    
+}
+    #sidebar ul {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 200px;
+        position: fixed;
+    }
+    #sidebar ul li {
+        flex-direction: column;
+        list-style: none;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+        #sidebar ul li:hover {
+            background-color: #003300;
+            transform:scale(101%);
+           
+            cursor:pointer;
+        }
+        
+
+
+
+#title_erp {
+    font-size: 30px;
+    text-align:left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#title_user i{
+    font-size: 20px;
+}
+#menu {
+    background-color: #003300;
+    height: 100px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 25px;
+}
+#Button1{
+    color:antiquewhite;
+}
+#divform {
+   background-color:aliceblue;
+}
+.labeld {
+    color: black;
+    margin-left: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.textcls {
+    color:black;
+    font-size:15px;
+    
+}
+.formbtn {
+    border-radius: 5px;
+    background-color: #003300;
+}
+
+    .formbtn:hover {
+        background-color:#024f02;
+        cursor: pointer;
+        transition: 0.1s;
+    }
+/*Login form*/
+#login_form {
+    margin:10px;
+    border: 0px solid black;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0.5, 0.5);
+    background-color:whitesmoke;
+    border-radius:0px;
+}
+.logintextcls{
+    border-radius:0px;
+    font-size:18px;
+    font-weight:bolder;
+}
+.loginformbtn {
+    background-color: #003300;
+    color:white;
+    font-size:20px;
+    border-radius:5px;
+  
+}
+    .loginformbtn:hover {
+        background-color: #024f02;
+        transform: scale(101%);
+        transition:0.1s;
+    }
+
+
+/*All options webpage*/
+#item_box{
+    
+}
+#item_box div {
+    margin:10px;
+    background-color: yellow;
+    border: 2px solid black;
+    height:200px;
+    width: 200px;
+    text-align: center;
+    transition: 0.4s;
+    border-radius:10px;
+}
+#item_box div:hover{
+   transform:scale(105%);
+   transition:0.4s;
+   cursor:pointer;
+}
+
+
+
+
+
+
+
+
+/*cpied*/
+.serviceBox {
+    text-align: center;
+    padding: 30px 10px;
+    overflow: hidden;
+    position: relative;
+   white-space:initial;
+    transition: all 0.3s ease 0s;
+}
+
+    .serviceBox:hover {
+        cursor:pointer;
+        transition:0.3s;
+        transform:scale(105%);
+        background:#003300; /*background: #b71c1c;*/
+    }
+
+    .serviceBox:before {
+        content: "";
+        width: 35px;
+        height: 35px;
+        border-width: 20px;
+        border-style: solid;
+        border-color: #fff #fff rgba(1, 1, 1, 0.2) rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: -40px;
+        right: -40px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .serviceBox:hover:before {
+        top: 0;
+        right: 0;
+    }
+
+    .serviceBox i {
+        display: block;
+        font-size: 35px;
+        color: #b71c1c;
+        margin-bottom: 14px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .serviceBox .title {
+        font-size: 18px;
+        font-weight: 900;
+        color: #545454;
+        line-height: 25px;
+        text-transform: capitalize;
+        margin: 0 0 16px 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .serviceBox .description {
+        font-size: 15px;
+        color: #545454;
+        line-height:0px;
+        margin: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .serviceBox:hover i,
+    .serviceBox:hover .title,
+    .serviceBox:hover .description {
+        color: #fff;
+    }
+
+@media only screen and (max-width: 990px) {
+    .serviceBox {
+        margin-bottom: 20px;
+    }
+}
+#ContentPlaceHolder1_pnlDashboard {
+    border: 0px solid black;
+   
+}
+#text_deco div{
+    color:aqua;
+   
+}
+#form_outer {
+    border-radius:5px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#panel-heading {
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+
+
+

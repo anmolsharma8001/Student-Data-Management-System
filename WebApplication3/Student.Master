@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.Master.cs" Inherits="WebApplication3.Site1" %>
+
+<link href="StyleSheet1.css" rel="stylesheet" />
+<link href="bootstrap.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="bootstrap.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <title></title>
+                
+              
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid" id="mainpage">
+            <div id="menu" class="row sticky-top">
+                <div class="col-11" id="title_erp">
+                    E R P  
+                </div>
+                <div class="col-1" id="title_user">
+                    <asp:Label ID="Label1" runat="server" Text="Hii! user"></asp:Label>
+                    <i class="fa fa-user"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" id="sidebar" style="height:600px;">
+                    <ul>
+                        <li>
+                            Dashboard
+                        </li>
+                        <li>
+                            My Profile
+                        </li>
+                        <li>
+                            Account details
+                        </li>
+                        <li >
+                            Admit card
+                        </li>
+                        <li>
+                            Result
+                        </li>
+                         <li>
+                            Sign out
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-10">
+                    
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        
+        
+    </form>
+</body>
+</html>
